@@ -1,3 +1,8 @@
+# R619AC
+![Build-OpenWrt](https://github.com/RealKiro/build-immortalwrt/workflows/Build-OpenWrt/badge.svg?event=status)
+
+---
+
 # Steps
 0. Sign up for [GitHub Actions](https://github.com/features/actions/signup)\(Ignore if already signed up\).<br/>
 1. [Fork](https://github.com/immortalwrt/build-immortalwrt/fork) this repo.<br/>
