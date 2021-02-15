@@ -6,10 +6,10 @@ on:
       - master
 #  release:
 #    types: published
-#  schedule:
-#    - cron: 0 8 * * 5
-#  watch:
-#    types: started
+  schedule:
+    - cron: 0 21 * * *
+  watch:
+    types: started
 #  repository_dispatch:
 
 jobs:
