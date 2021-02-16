@@ -1,5 +1,5 @@
 # R619AC
-![Build-OpenWrt](https://github.com/RealKiro/build-immortalwrt/workflows/Build-OpenWrt/badge.svg?event=status)
+![Build-OpenWrt](https://github.com/RealKiro/build-immortalwrt/workflows/Build-OpenWrt/badge.svg?branch=master)   [![Release](https://img.shields.io/github/release/RealKiro/Actions-OpenWrt?color=blue)](https://github.com/RealKiro/build-immortalwrt/releases)   [![Last commit](https://img.shields.io/github/last-commit/RealKiro/build-immortalwrt?color=blue)](https://github.com/RealKiro/build-immortalwrt/commits/master)
 
 ---
 
