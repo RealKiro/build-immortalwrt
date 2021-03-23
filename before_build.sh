@@ -18,6 +18,8 @@ sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generat
 
 # luci-app-bypass
 git clone https://github.com/garypang13/luci-app-bypass.git package/mine/luci-app-bypass
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
 
 # DiskMan for LuCI (WIP)
 # git clone https://github.com/lisaac/luci-app-diskman.git package/mine/luci-app-diskman
